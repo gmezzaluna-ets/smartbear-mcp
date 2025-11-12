@@ -69,6 +69,7 @@ startCommand:
         type: string
         description: "Your Collaborator Url."      
       
+      
       # General Config
       readOnlyMode:
         type: boolean

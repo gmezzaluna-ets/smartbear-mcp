@@ -134,7 +134,6 @@ async function main() {
       console.error("STDIO error:", error);
     });
   });
-}
 
 main().catch((error) => {
   process.exit(1);
