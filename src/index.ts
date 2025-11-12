@@ -20,8 +20,8 @@ if (McpServerBugsnagAPIKey) {
 async function conditions() {
   const server = new SmartBearMcpServer();
 
-  const reflectToken = process.env.REFLECT_API_TOKEN;
   const bugsnagToken = process.env.BUGSNAG_AUTH_TOKEN;
+  const reflectToken = process.env.REFLECT_API_TOKEN;
   const apiHubToken = process.env.API_HUB_API_KEY;
   const pactBrokerToken = process.env.PACT_BROKER_TOKEN;
   const pactBrokerUrl = process.env.PACT_BROKER_BASE_URL;
